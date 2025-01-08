@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Futura Std', sans-serif;
+            background: linear-gradient(360deg, #9c27b0, #673ab7);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 300px;
+            border-radius: 15%;
+            border: 5px solid #673ab7;
+            margin-bottom: 0px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #673ab7;
+            margin-bottom: 0px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Section Styling */
+        section {
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #9c27b0;
+            border-bottom: 3px solid #673ab7;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .about, .education, .skills {
+            background: #f9f9fc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        p, ul {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #4a148c;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #673ab7;
+            font-size: 18px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #673ab7;
+            color: #ffffff;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .contact a:hover {
+            background-color: #4a148c;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            p, ul {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <header>
+            <img src="me 3.jpeg">
+            <h1>Yap Wun Yee</h1>
+              <p>Graphic Designer | Web Coder | Visual Producer</p>
+      </header>
+
+        <section class="about">
+          <h2>About Me</h2>
+          <p> Always spreading positivity and passionate on creating impactful artworks with my ideas , 
+                I specialize in UI/UX while having the interest to always improve my skills and knowledge in other departments. 
+          My hobbies mainly include practicing taekwondo and trying out new foods with friend.&nbsp;</p>
+          
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+            <p><strong>| Taylor University | </strong>| Bachelor of Arts in Graphic Design |</p>
+          
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+            <ul>
+                <li>Maximizing potential of Adobe Photoshop, Dreamweavor , Illustrator, and Premier Pro</li>
+                <li>HTML/CSS simple coding&nbsp;and Visual web analyzing</li>
+                <li>Confidents in group presenting speech&nbsp;</li>
+                <li>Overall organizing teamwork&nbsp; &nbsp;&nbsp;</li>
+                <li>Ability to problem solve&nbsp;</li>
+            </ul>
+        </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+            <p>Email: <a href="wunyeetom@gmail.com">wunyeetom@gmail.com</a></p>
+		  <p>Mobile Number: <a href="0182201981" target="_blank">0182201981 </a></p>   
+			<p>Personal Blog: <a href="https://wunyeetaylors.blogspot.com/search/label/Interactive%20Design" target="_blank">Blogger.com</a></p>
+        </section>
+    </div>
+</body>
+</html>
